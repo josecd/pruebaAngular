@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InfoPaginaService } from 'src/app/services/info-pagina.service';
 
 @Component({
   selector: 'app-footerr',
@@ -9,7 +10,7 @@ export class FooterrComponent implements OnInit {
     // Para poner el año en la vista sin necesidad de cambiarlo cada año
   anio: number = new Date().getFullYear();
  
-  constructor() { }
+  constructor(public _servicioPagina: InfoPaginaService) { }
 
   ngOnInit() {
   }
