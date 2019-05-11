@@ -13,6 +13,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 //Servicios
 import { InfoPaginaService } from './services/info-pagina.service';
+import { SearchComponent } from './pages/search/search.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { InfoPaginaService } from './services/info-pagina.service';
     FooterrComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
